@@ -52,7 +52,7 @@ public class GalleryRepository {
             );
             queryArgs.putInt(
                     ContentResolver.QUERY_ARG_SORT_DIRECTION,
-                    ContentResolver.QUERY_SORT_DIRECTION_ASCENDING
+                    ContentResolver.QUERY_SORT_DIRECTION_DESCENDING
             );
             // limit, offset
             queryArgs.putInt(ContentResolver.QUERY_ARG_LIMIT, limit);
